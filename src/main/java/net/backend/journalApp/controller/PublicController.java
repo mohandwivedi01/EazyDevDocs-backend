@@ -13,7 +13,6 @@ import org.springframework.security.authentication.UsernamePasswordAuthenticatio
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.web.bind.annotation.*;
 
-@CrossOrigin(origins = "http://localhost:5173")
 @RestController // Indicates that this class is a REST controller.
 @RequestMapping("/api/v1/public") // Maps all endpoints in this controller under the "/public" path.
 @Slf4j // Enables logging functionality using Lombok.
